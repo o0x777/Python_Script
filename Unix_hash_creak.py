@@ -4,7 +4,7 @@
 # @Function: Unix hash scan
 
 from passlib.handlers.sha2_crypt import sha512_crypt
-path = r'../Downloads/text/content'
+
 def testPass(cryptPass):
     salt  = cryptPass[0:2]
     dictFile = open('dictionary.txt','r')
